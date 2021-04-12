@@ -1,0 +1,24 @@
+@import './variables';
+@mixin responsive($screen-size) {
+  @if $screen-size == xs {
+    @media (max-width: $screen-small) {
+      @content;
+    }
+  }
+  //only use xs or sm/md/lg
+  @else if $screen-size == sm {
+    @media (min-width: $screen-small) {
+      @content;
+    }
+  } @else if $screen-size == md {
+    @media (min-width: $screen-medium) {
+      @content;
+    }
+  } @else if $screen-size == lg {
+    @media (min-width: $screen-large) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}

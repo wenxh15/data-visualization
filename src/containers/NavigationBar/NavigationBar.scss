@@ -1,0 +1,67 @@
+@import '../../css/mixins.scss';
+
+.navigation-bar {
+  //overflow: hidden;
+  height: $header-height;
+  position: fixed;
+  width: calc(100% - 20px);
+  top: $header-height;
+  left: 0;
+  margin-left: 10px;
+  background-color: white;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0px #000043;
+  z-index: 999;
+  @include responsive(xs) {
+    box-shadow: 0;
+    border-bottom: 0;
+  }
+  .menu-container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 14px 16px;
+    @include responsive(xs) {
+      flex-direction: column;
+      padding: 14px 16px;
+    }
+    .menu-item {
+      &-link {
+        color: #505151;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: 0.2s;
+        @include responsive(xs) {
+          padding: 0;
+        }
+      }
+      &-link:hover {
+        color: #f69700;
+      }
+      &-link::after {
+        background-color: yellowgreen;
+      }
+    }
+    .icon {
+      display: none;
+      @include responsive(xs) {
+        display: flex;
+        // position: absolute;
+        // right: 0;
+        // top: 0;
+        justify-content: flex-end;
+        padding: 14px 16px 0 16px;
+      }
+    }
+
+    &--invisible {
+      .menu-item {
+        transform: scaleY(0);
+        display: none;
+      }
+    }
+  }
+}

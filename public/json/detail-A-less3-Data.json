@@ -1,0 +1,19 @@
+[
+  { "name": "Student A", "gpa": 2.5, "college": "A" },
+  { "name": "Student B", "gpa": 2.6, "college": "A" },
+  { "name": "Student C", "gpa": 2.9, "college": "A" },
+  { "name": "Student D", "gpa": 2.8, "college": "A" },
+  { "name": "Student E", "gpa": 2.7, "college": "A" },
+  { "name": "Student F", "gpa": 2.5, "college": "A" },
+  { "name": "Student G", "gpa": 2.6, "college": "A" },
+  { "name": "Student H", "gpa": 2.0, "college": "A" },
+  { "name": "Student I", "gpa": 2.5, "college": "A" },
+  { "name": "Student J", "gpa": 2.5, "college": "A" },
+  { "name": "Student K", "gpa": 2.5, "college": "A" },
+  { "name": "Student L", "gpa": 2.5, "college": "A" },
+  { "name": "Student M", "gpa": 2.0, "college": "A" },
+  { "name": "Student N", "gpa": 1.5, "college": "A" },
+  { "name": "Student O", "gpa": 1.9, "college": "A" },
+  { "name": "Student P", "gpa": 2.9, "college": "A" },
+  { "name": "Student Q", "gpa": 20.5, "college": "A" }
+]

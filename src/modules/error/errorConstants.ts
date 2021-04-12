@@ -1,0 +1,4 @@
+export const API_ERROR = 'API_ERROR';
+export const CLEAR_API_ERROR = 'CLEAR_API_ERROR';
+export const SET_ERROR_COUNT = 'SET_ERROR_COUNT';
+export const RESET_ERROR_COUNT = 'RESET_ERROR_COUNT';

@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+html,
+body {
+  font-family: $base-font;
+  font-size: $font-normal;
+  line-height: $base-line-height;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}

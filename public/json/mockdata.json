@@ -1,0 +1,65 @@
+[
+  {
+    "metadata": null,
+    "count": 5,
+    "category": "A",
+    "code": "over 4"
+  },
+  {
+    "metadata": null,
+    "count": 40,
+    "avg": 3.5,
+    "category": "B",
+    "code": "3 to 4"
+  },
+  {
+    "metadata": null,
+    "count": 35,
+    "category": "C",
+    "code": "3 to 4"
+  },
+  {
+    "metadata": null,
+    "count": 5,
+    "category": "D",
+
+    "code": "over 4"
+  },
+  {
+    "metadata": null,
+    "count": 2,
+
+    "category": "E",
+    "code": "under 3"
+  },
+  {
+    "metadata": null,
+    "count": 17,
+    "category": "A",
+    "code": "under 3"
+  },
+  {
+    "metadata": null,
+    "count": 3,
+    "category": "B",
+    "code": "3 to 4"
+  },
+  {
+    "metadata": null,
+    "count": 44,
+    "category": "C",
+    "code": "3 to 4"
+  },
+  {
+    "metadata": null,
+    "count": 6,
+    "category": "D",
+    "code": "3 to 4"
+  },
+  {
+    "metadata": null,
+    "count": 23,
+    "category": "E",
+    "code": "3 to 4"
+  }
+]
